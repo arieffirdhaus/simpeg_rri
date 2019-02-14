@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/not_found"
+    android:background="@android:color/white"
+    android:layout_gravity="center"
+    android:visibility="visible">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="@dimen/size_dimen_150"
+        android:layout_height="@dimen/size_dimen_150"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:src="@drawable/found_icon" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/image"
+        android:textSize="@dimen/margin_padding_30"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textStyle="bold"
+        android:text="@string/belum_ada_data"/>
+
+</RelativeLayout>

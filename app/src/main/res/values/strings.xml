@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Simpeg RRI</string>
+    <string name="scanner_error">Scanner error: %s</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_datauser">Data User</string>
+    <string name="title_riwayat">Riwayat</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_login">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <string name="title_activity_nav">SIMPEG RRI</string>
+    <!-- String Konten-->
+    <string name="selamat_datang_02">SISTEM INFORMASI MOBILE KEPEGAWAIAN TERINTREGRASI</string>
+    <string name="selamat_datang_01">Selamat Datang di aplikasi SIMPEG RRI</string>
+    <string name="nip">nip</string>
+    <string name="nama">nama</string>
+    <string name="alamat">alamat</string>
+    <string name="tempat_lahir">tempat lahir</string>
+    <string name="tanggal_lahir">tanggal lahir</string>
+    <string name="jenis_kelamin">jenis kelamin</string>
+    <string name="agama">agama</string>
+    <string name="golongan_darah">golongan darah</string>
+    <string name="status_nikah">status nikah</string>
+    <string name="suku_bangsa">suku bangsa</string>
+    <string name="kode_pos">kode pos</string>
+    <string name="belum_ada_data">Belum Ada Data</string>
+    <string name="tanggal_menikah">Tanggal Menikah</string>
+    <string name="no_buku_nikah">No. Buku Nikah</string>
+
+    <!--List Nama Menu Data Terkini dan Riwayat-->
+    <string-array name="data_terkini">
+        <item>Identitas</item>
+        <item>Keluarga</item>
+        <item>SK Pegawai</item>
+        <!--<item>Pengalaman Kerja</item>-->
+        <!--<item>SK CPNS</item>-->
+        <!--<item>SK PNS</item>-->
+        <!--<item>Pangkat Terakhir</item>-->
+        <!--<item>Gaji Berkala</item>-->
+        <!--<item>Pendidikan Terakhir</item>-->
+        <!--<item>Jabatan Terakhir</item>-->
+        <!--<item>Penghasilan Terakhir</item>-->
+    </string-array>
+    <string-array name="riwayat">
+        <item>Kepangkatan</item>
+        <item>Menikah</item>
+        <item>Jabatan</item>
+        <item>Diklat</item>
+        <item>Penguasaan Bahasa</item>
+        <item>Riwayat</item>
+        <item>Riwayat</item>
+        <item>Riwayat</item>
+        <item>Riwayat</item>
+        <item>Riwayat</item>
+        <item>Riwayat</item>
+    </string-array>
+
+</resources>

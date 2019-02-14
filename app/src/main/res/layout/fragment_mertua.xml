@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_padding_10"
+        app:cardElevation="@dimen/margin_padding_5">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginBottom="@dimen/margin_padding_10"
+                android:background="@drawable/gradien_color03"
+                android:text="ayah mertua"
+                android:textAllCaps="true"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:id="@+id/textAyah" />
+            <TableLayout
+                android:id="@+id/tabelAyah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textAyah"
+                android:layout_marginTop="@dimen/margin_padding_5"
+                android:layout_marginBottom="@dimen/margin_padding_5">
+                <TableRow>
+                    <TextView
+                        android:layout_column="1"
+                        android:layout_marginLeft="@dimen/margin_padding_10"
+                        android:text="Nama"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_column="2"
+                        android:layout_marginRight="@dimen/margin_padding_10"
+                        android:text=":" />
+                    <TextView
+                        android:id="@+id/namaAyah"
+                        android:layout_column="3" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_column="1"
+                        android:layout_marginLeft="@dimen/margin_padding_10"
+                        android:text="Tempat Lahir"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_column="2"
+                        android:text=":" />
+                    <TextView
+                        android:id="@+id/tmLahirAyah"
+                        android:layout_column="3"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_column="1"
+                        android:layout_marginLeft="@dimen/margin_padding_10"
+                        android:text="Tanggal Lahir"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_column="2"
+                        android:text=":" />
+                    <TextView
+                        android:id="@+id/tgLahirAyah"
+                        android:layout_column="3"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_column="1"
+                        android:layout_marginLeft="@dimen/margin_padding_10"
+                        android:text="Pekerjaan"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_column="2"
+                        android:text=":"/>
+                    <TextView
+                        android:id="@+id/kerjaAyah"
+                        android:layout_column="3" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_column="1"
+                        android:layout_marginLeft="@dimen/margin_padding_10"
+                        android:text="Alamat"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_column="2"
+                        android:text=":" />
+                    <TextView
+                        android:id="@+id/alamatAyah"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:paddingEnd="@dimen/size_dimen_100"
+                        android:gravity="left"
+                        android:layout_column="3"
+                        android:maxLines="5"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_column="1"
+                        android:layout_marginLeft="@dimen/margin_padding_10"
+                        android:text="Kode Pos"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_column="2"
+                        android:text=":" />
+                    <TextView
+                        android:id="@+id/kodeposAyah"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:paddingEnd="@dimen/size_dimen_100"
+                        android:layout_column="3"
+                        android:gravity="left"
+                        android:maxLines="10"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_column="1"
+                        android:layout_marginLeft="@dimen/margin_padding_10"
+                        android:text="Telepon"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_column="2"
+                        android:text=":"/>
+                    <TextView
+                        android:id="@+id/telpAyah"
+                        android:layout_column="3"/>
+                </TableRow>
+            </TableLayout>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_padding_10"
+        app:cardCornerRadius="@dimen/margin_padding_5"
+        app:cardElevation="@dimen/margin_padding_5">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginBottom="@dimen/margin_padding_10"
+                android:background="@drawable/gradien_color03"
+                android:text="ibu mertua"
+                android:textAllCaps="true"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:id="@+id/textIbu" />
+            <TableLayout
+                android:id="@+id/tabelIbu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textIbu"
+                android:layout_marginTop="@dimen/margin_padding_5"
+                android:layout_marginBottom="@dimen/margin_padding_5">
+                <TableRow>
+                    <TextView
+                        android:layout_column="1"
+                        android:layout_marginLeft="@dimen/margin_padding_10"
+                        android:text="Nama"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_column="2"
+                        android:layout_marginRight="@dimen/margin_padding_10"
+                        android:text=":" />
+                    <TextView
+                        android:id="@+id/namaIbu"
+                        android:layout_column="3" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_column="1"
+                        android:layout_marginLeft="@dimen/margin_padding_10"
+                        android:text="Tempat Lahir"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_column="2"
+                        android:text=":" />
+                    <TextView
+                        android:id="@+id/tmLahirIbu"
+                        android:layout_column="3"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_column="1"
+                        android:layout_marginLeft="@dimen/margin_padding_10"
+                        android:text="Tanggal Lahir"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_column="2"
+                        android:text=":" />
+                    <TextView
+                        android:id="@+id/tgLahirIbu"
+                        android:layout_column="3"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_column="1"
+                        android:layout_marginLeft="@dimen/margin_padding_10"
+                        android:text="Pekerjaan"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_column="2"
+                        android:text=":"/>
+                    <TextView
+                        android:id="@+id/kerjaIbu"
+                        android:layout_column="3" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_column="1"
+                        android:layout_marginLeft="@dimen/margin_padding_10"
+                        android:text="Alamat"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_column="2"
+                        android:text=":" />
+                    <TextView
+                        android:id="@+id/alamatIbu"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:paddingEnd="@dimen/size_dimen_100"
+                        android:gravity="left"
+                        android:layout_column="3"
+                        android:maxLines="5"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_column="1"
+                        android:layout_marginLeft="@dimen/margin_padding_10"
+                        android:text="Kode Pos"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_column="2"
+                        android:text=":" />
+                    <TextView
+                        android:id="@+id/kodeposIbu"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:paddingEnd="@dimen/size_dimen_100"
+                        android:layout_column="3"
+                        android:gravity="left"
+                        android:maxLines="10"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_column="1"
+                        android:layout_marginLeft="@dimen/margin_padding_10"
+                        android:text="Telepon"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_column="2"
+                        android:text=":"/>
+                    <TextView
+                        android:id="@+id/telpIbu"
+                        android:layout_column="3"/>
+                </TableRow>
+            </TableLayout>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
